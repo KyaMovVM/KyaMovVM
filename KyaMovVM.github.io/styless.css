@@ -1,3 +1,12 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, cyan, purple);
+}
+=======
 body{
   background-color: rgb(255, 255, 255);
 }
@@ -6,6 +15,7 @@ body {
   height: 900px;
   background: linear-gradient(45deg, #00e5ff, #fb04ff);
 }
+
 
 .box {
   width: 200px;
@@ -43,8 +53,34 @@ body {
 
 .heart:after {
   left: 0;
+
+  transform-origin: 100% 100%;
+  transform: rotate(45deg);
+}
+
+.sportcar {
+  width: 120px;
+  height: 60px;
+  margin: 20px auto;
+  background: linear-gradient(135deg, cyan, purple);
+  transform-style: preserve-3d;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.heart:after {
+  left: 0;
   
   transform-origin: 100% 100%;
   transform: rotate(45deg);
 }
+
 
