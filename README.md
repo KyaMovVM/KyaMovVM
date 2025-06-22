@@ -1,6 +1,8 @@
 ## 🏎️ Welcome to my high-octane GitHub garage
 
 ![Storyboard preview](racing_storyboard.gif)
+
+![Storyboard preview](racing_storyboard.gif)
 - 🔧 Rev up your engines—I thrive on high-octane hacks and open-source horsepower
 - 🛠️ Tuning up my Python skills to push code past the redline
 - 🤝 Always ready for a pit crew that loves fast builds and quick sprints
